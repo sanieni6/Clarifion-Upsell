@@ -8,6 +8,16 @@ import star from "../assets/images/star.svg";
 import bluePoint from "../assets/images/bluePoint.svg";
 import blueCheck from "../assets/images/checkBlue.svg";
 import percen from "../assets/images/percen.svg";
+import buttonArrow from "../assets/images/buttonArrow.svg";
+import lock from "../assets/images/lockDark.svg";
+import visa from "../assets/images/visa.svg";
+import gpay from "../assets/images/gpay.svg";
+import paypal from "../assets/images/paypal.svg";
+import amex from "../assets/images/amex.svg";
+import mastercard from "../assets/images/mastercard.svg";
+import applePay from "../assets/images/applePay.svg";
+import shopPay from "../assets/images/shopPay.svg";
+import gold from "../assets/images/gold.svg";
 
 const MainCart = () => {
   return (
@@ -114,6 +124,49 @@ const MainCart = () => {
         <div className="flex gap-[10px] py-3 px-4 bg-[#EDF3FD] border-0 rounded-[10px]">
             <img src={percen} alt="" />
             <p className="text-[14px] font-medium leading-[19.6px]">Save <span className="text-blueColor">53% </span>and get <span className="text-blueColor">6 extra Clarifision</span> for only <span className="text-blueColor">$14 Each.</span></p>
+        </div>
+
+        {/* <!-- payment section --> */}
+        <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-3">
+            {/* <!-- button --> */}
+            <button className="flex gap-[10px] rounded-[50px] py-4 px-[60px] bg-greenColor items-center">
+                <p className="text-[14px] font-bold text-white leading-[19.12px]">YES-CLAIM MY DISCOUNT</p>
+                <img src={buttonArrow} alt="" />
+            </button>
+            {/* <!-- payment methods --> */}
+            <div className="flex flex-col gap-3 py-2 px-4 border-[1px] items-center">
+                <div className="flex gap-3">
+                    <h3 className="text-[11px] font-normal leading-[16.8px] text-[#4D5254]">Free Shipping</h3>
+                    <hr className=" border border-[#CFCFCF] w-[14px] rotate-90 self-center" />
+                    <div className="flex gap-2">
+                        <img src={lock} alt="" />
+                        <p className="text-[11px] font-normal leading-[16.8px] text-[#4D5254]">Secure 256-Bit SSL Encryption</p>
+                    </div>
+                </div>
+                <hr className="border border-[#CFCFCF] w-full" />
+                <div className="flex gap-[2px]">
+                    <img src={visa} alt="" />
+                    <img src={shopPay} alt="" />
+                    <img src={paypal} alt="" />
+                    <img src={gpay} alt="" />
+                    <img src={mastercard} alt="" />
+                    <img src={applePay} alt="" />
+                    <img src={amex} alt="" />
+                    
+                </div>
+            </div>
+            </div>
+            <h2 className="text-[12px] leading-[16.29px] text-redColor font-medium self-center">NO THANKS, I DON&apos;T WANT THIS.</h2>
+        </div>
+
+        {/* <!-- disclaimer --> */}
+        <div className="flex gap-4">
+          <img src={gold} className=" self-start" alt="" />
+          <p
+          className="text-[12px] leading-[16.8px] font-normal text-[#4D5254]"
+          >If you are not completely thrilled with your Clarifion - We have a <span className="font-bold">30 day satisfaction guarantee.</span>  Please refer to our return policy at the bottom of the page for more details. Happy Shopping!</p>
+
         </div>
       </div>
     </section>
