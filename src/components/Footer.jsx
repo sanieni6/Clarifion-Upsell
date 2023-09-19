@@ -1,4 +1,3 @@
-import React from 'react'
 import lockWhite from "../assets/images/lockWhite.svg";
 
 const Footer = () => {

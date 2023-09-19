@@ -35,12 +35,12 @@ const Header = () => {
   return (
     <header>
         <div className='bg-backHeader flex justify-between py-[10px] px-[20px] gap-1 h-[42px]'>
-            <button onClick={handlePrevClick}><img src={arrowLeft} alt="Prev" /></button>
-            <div className='flex items-center gap-1'>
+            <button onClick={handlePrevClick} className='md:hidden'><img src={arrowLeft} alt="Prev" /></button>
+            <div className='flex items-center gap-1 md:hidden'>
                 <img src={secureCheck} alt="" />
                 <p className='leading-[12px] font-medium text-white text-[12px]'>{elements[currentIndex]}</p>
             </div>
-            <button onClick={handleNextClick}><img src={rigthArrow} alt="" /></button>
+            <button onClick={handleNextClick} className='md:hidden'><img src={rigthArrow} alt="" /></button>
         </div>
 
         <div className='flex items-center h-[60px] justify-between px-[20px]'>

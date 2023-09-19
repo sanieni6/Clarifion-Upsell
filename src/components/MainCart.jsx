@@ -1,4 +1,3 @@
-import React from "react";
 import greenCheck from "../assets/images/checkgreen.svg";
 import three from "../assets/images/three.svg";
 import four from "../assets/images/four.svg";
