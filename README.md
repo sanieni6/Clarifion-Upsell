@@ -52,6 +52,20 @@ OPTIONAL SECTIONS:
 **Clarifion-Upsell** This project corresponds to a take home challenge for eJam recruinment proccess. This is a Front-end
 project where I recreated the provided UI/UX design. The project was built using React and and TailwindCSS.
 
+<h2 align="center">Desktop</h2>
+
+<div align="center">
+ <a href="./screenshots/desktop.png" target="_blank"><img src="./screenshots/desktop.png" alt="desktop" width="500"  height="auto"></a>
+  <br/>
+ </div>
+
+ <h2 align="center">Mobile</h2>
+
+ <div align="center">
+ <a href="./screenshots/mobile.png" target="_blank"><img src="./screenshots/mobile.png" alt="desktop" width="500"  height="auto"></a>
+  <br/>
+ </div>
+
 ## 🛠 Built With <a name="built-with"></a>
 - `React.js`
 - `TailwindCSS`
